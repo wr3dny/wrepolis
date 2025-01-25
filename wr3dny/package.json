@@ -1,13 +1,15 @@
 {
   "name": "wr3dny",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+"homepage": "https://wr3dny.github.io/home",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && git add dist && git commit -m 'Deploy' && git subtree push --prefix dist origin gh-pages"
+      "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "i18next": "^24.2.1",
