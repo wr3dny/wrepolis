@@ -1,16 +1,17 @@
-import { LEGO } from "../../const/lego"
+
+import { LegoWishlis } from '../../const/lego'
 import styles from './Lego.module.css'
 
 export const Lego = () => {
     return (
-        <div>
-        {LEGO.map((set, index) => (
-            <div key={index} >
-                <div className={styles.img}/>
-                <div>{set.set_number}</div>
-                <a href={set.url}>View Set</a>
-            </div>
-        ))}
-    </div>
-    )
-} 
+        <div className={styles.container}>
+            {LegoWishlis.map((set, index) => (
+                <div key={index} className={styles.card}>
+                    <a href={set.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                        <img src={set.image} alt={set.setNumber.toString()} className={styles.img} />
+                    </a>
+                </div>
+            ))}
+        </div>
+    );
+};

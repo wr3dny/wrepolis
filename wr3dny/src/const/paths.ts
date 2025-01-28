@@ -1,6 +1,6 @@
 export const PATHS = {
     LEGO: '/lego',
-    GALLERY_MAIN: '/gallery',
+    GALLERY: '/gallery',
     HOME: '/',
     BOOKS: '/books'
 } as const

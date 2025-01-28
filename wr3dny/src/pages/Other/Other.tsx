@@ -1,1 +1,0 @@
-export const Other = () => { return <div>other</div>}
