@@ -1,45 +1,10 @@
 export const LegoWishlis = [
-    {
-      "setNumber": 76417,
-      "price": 1999,
-      "url": "https://zklockow.pl/lego-76417-harry-potter-bank-gringotta-edycja-kolekcjonerska",
-      "image": "https://zklockow.pl/img/960/lego-harry-potter-76417-bank-gringotta-edycja-kolekcjonerska-1.jpg",
-      "alt": "Gringot"
-    },
-    {
-      "setNumber": 21347,
-      "price": 444,
-      "url": "https://zklockow.pl/lego-21347-ideas-czerwona-londynska-budka-telefoniczna",
-      "image": "https://zklockow.pl/img/960/lego-ideas-21347-czerwona-londynska-budka-telefoniczna-1.jpg",
-      "alt": "budka"
-    },
-    {
-      "setNumber": 43227,
-      "price": 649,
-      "url": "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
-      "image": "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
-      "alt": "Ikony"
-    },
-    {
-      "setNumber": 21343,
-      "price": 555,
-      "url": "https://zklockow.pl/lego-21343-ideas-wioska-wikingow",
-      "image": "https://zklockow.pl/img/960/lego-ideas-21343-wioska-wikingow-1.jpg",
-      "alt": "Viking"
-    },
-    {
+     {
       "setNumber": 10297,
       "price": 848,
       "url": "https://zklockow.pl/lego-10297-hotel-butikowy",
       "image": "https://zklockow.pl/img/640/lego-10297-hotel-butikowy-1.jpg",
       "alt": "Hotel"
-    },
-    {
-      "setNumber": 10273,
-      "price": 1042,
-      "url": "https://zklockow.pl/lego-10273-creator-expert-dom-strachu",
-      "image": "https://zklockow.pl/img/640/lego-creator-expert-10273-dom-strachu-1.jpg",
-      "alt": "Dom Strachów"
     },
     {
       "setNumber": 21351,
@@ -70,11 +35,25 @@ export const LegoWishlis = [
       "alt": "D&D"
     },
     {
-      "setNumber": 10332,
-      "price": 939,
-      "url": "https://zklockow.pl/lego-10332-icons-sredniowieczny-plac-miejski",
-      "image": "https://zklockow.pl/img/960/lego-icons-10332-sredniowieczny-plac-miejski-1.jpg",
-      "alt": "plac"
-    }
+      "setNumber": 21062,
+      "price": 562,
+      "url": "https://zklockow.pl/lego-21062-architecture-fontanna-di-trevi",
+      "image": "https://zklockow.pl/img/960/lego-architecture-21062-fontanna-di-trevi-1.jpg",
+      "alt": "Trevi"
+    },
+    {
+      "setNumber": 10350,
+      "price": 999,
+      "url": "https://zklockow.pl/lego-10350-icons-dom-w-stylu-angielskim",
+      "image": "https://zklockow.pl/img/960/lego-icons-10350-dom-w-stylu-angielskim-0.jpg",
+      "alt": "Pub"
+    },
+    {
+      "setNumber": 42182,
+      "price": 649,
+      "url": "https://zklockow.pl/lego-42182-technic-nasa-apollo-pojazd-lrv",
+      "image": "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
+      "alt": "Trevi"
+    },
   ];
   
