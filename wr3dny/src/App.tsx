@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { useTranslation } from 'react-i18next'
-import { Navbar } from './components/Navbar/Navbar'
+import {  Navbar } from './components/Navbar/Navbar'
 import { RouterConfig } from './router'
 
 export const App = () => {
