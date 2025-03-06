@@ -1,6 +1,6 @@
 export const PATHS: Record<string, string> = {
   LEGO: "/lego",
-  GALLERY: "/gallery",
+  // GALLERY: "/gallery",
   HOME: "/",
-  BOOKS: "/books",
+  // BOOKS: "/books",
 };
