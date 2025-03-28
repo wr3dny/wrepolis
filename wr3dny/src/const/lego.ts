@@ -62,6 +62,14 @@ export const LegoWishlis = [
       "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
     alt: "Trevi",
   },
+  {
+    setNumber: 10354,
+    price: 1149,
+    url: "https://zklockow.pl/lego-10354-icons-wladca-pierscieni-shire",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10354-wladca-pierscieni-shire-0.jpg",
+    alt: "BagEnd",
+  },
   // {
   //   setNumber: 21063,
   //   price: 1060,
