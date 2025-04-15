@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  flex-grow: 1; /* Allows main content to fill remaining space */
+  overflow-y: auto; /* Enables scrolling */
+}

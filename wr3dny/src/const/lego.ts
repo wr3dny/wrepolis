@@ -31,12 +31,12 @@ export const LegoWishlis = [
     alt: "Barad-Dur",
   },
   {
-    setNumber: 21348,
-    price: 1359,
-    url: "https://zklockow.pl/lego-21348-ideas-dungeons-dragons-opowiesc-czerwonego-smoka",
+    setNumber: 42202,
+    price: 635,
+    url: "https://zklockow.pl/lego-42202-technic-motocykl-ducati-panigale-v4-s",
     image:
-      "https://zklockow.pl/img/960/lego-ideas-21348-dungeons-dragons-opowiesc-czerwonego-smoka-0.jpg",
-    alt: "D&D",
+      "https://zklockow.pl/img/960/lego-technic-42202-motocykl-ducati-panigale-v4-s-1.jpg",
+    alt: "ducati",
   },
   {
     setNumber: 21062,
@@ -63,12 +63,36 @@ export const LegoWishlis = [
     alt: "Trevi",
   },
   {
-    setNumber: 10354,
-    price: 1149,
-    url: "https://zklockow.pl/lego-10354-icons-wladca-pierscieni-shire",
+    setNumber: 43227,
+    price: 449,
+    url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
     image:
-      "https://zklockow.pl/img/960/lego-icons-10354-wladca-pierscieni-shire-0.jpg",
-    alt: "BagEnd",
+      "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
+    alt: "icons",
+  },
+  {
+    setNumber: 10327,
+    price: 508,
+    url: "https://zklockow.pl/lego-10327-icons-diuna-atreides-royal-ornithopter",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10327-diuna-atreides-royal-ornithopter-1.jpg",
+    alt: "orni",
+  },
+  {
+    setNumber: 21353,
+    price: 1350,
+    url: "https://zklockow.pl/lego-21353-ideas-ogrod-botaniczny",
+    image:
+      "https://zklockow.pl/img/960/lego-ideas-21353-ogrod-botaniczny-1.jpg",
+    alt: "bot",
+  },
+  {
+    setNumber: 10283,
+    price: 616,
+    url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
+    image:
+      "https://zklockow.pl/img/960/lego-10283-wahadlowiec-discovery-nasa-1.jpg",
+    alt: "disc",
   },
   // {
   //   setNumber: 21063,

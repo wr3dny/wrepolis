@@ -7,13 +7,14 @@
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-color: white; /* Ensures it has a background */
+  background-color: white;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000; /* Ensures it stays on top */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  height: 70px; /* Adjusted height to be consistent */
 }
 
 ul {
@@ -25,14 +26,4 @@ ul {
 
 li {
   margin: 0 15px;
-}
-
-.link {
-  color: black !important; /* Ensures the text stays black */
-  font-size: 22px;
-  text-decoration: none;
-  padding: 15px 25px;
-  text-transform: lowercase;
-  position: relative;
-  display: inline-block;
 }
