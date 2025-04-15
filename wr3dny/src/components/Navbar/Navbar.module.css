@@ -14,7 +14,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  height: 70px; /* Adjusted height to be consistent */
+  height: 45px; /* Adjusted height to be consistent */
 }
 
 ul {
