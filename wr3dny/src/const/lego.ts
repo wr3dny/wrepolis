@@ -94,6 +94,14 @@ export const LegoWishlis = [
       "https://zklockow.pl/img/960/lego-10283-wahadlowiec-discovery-nasa-1.jpg",
     alt: "disc",
   },
+  {
+    setNumber: 10351,
+    price: 559,
+    url: "https://zklockow.pl/lego-10351-icons-sherlock-holmes-book-nook",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10351-sherlock-holmes-book-nook-1.jpg",
+    alt: "nook",
+  },
   // {
   //   setNumber: 21063,
   //   price: 1060,
