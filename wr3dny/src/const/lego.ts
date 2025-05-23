@@ -7,44 +7,12 @@ export const LegoWishlis = [
     alt: "Hotel",
   },
   {
-    setNumber: 21351,
-    price: 879,
-    url: "https://zklockow.pl/lego-21351-ideas-disney-miasteczko-halloween-tima-burtona",
-    image:
-      "https://zklockow.pl/img/960/lego-ideas-21351-disney-miasteczko-halloween-tima-burtona-1.jpg",
-    alt: "Burtony",
-  },
-  {
-    setNumber: 10316,
-    price: 1699,
-    url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
-    image:
-      "https://zklockow.pl/img/640/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
-    alt: "Rivendell",
-  },
-  {
-    setNumber: 10333,
-    price: 2674,
-    url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-d%C3%BAr",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BAr-1.jpg",
-    alt: "Barad-Dur",
-  },
-  {
     setNumber: 42202,
     price: 635,
     url: "https://zklockow.pl/lego-42202-technic-motocykl-ducati-panigale-v4-s",
     image:
       "https://zklockow.pl/img/960/lego-technic-42202-motocykl-ducati-panigale-v4-s-1.jpg",
     alt: "ducati",
-  },
-  {
-    setNumber: 21062,
-    price: 562,
-    url: "https://zklockow.pl/lego-21062-architecture-fontanna-di-trevi",
-    image:
-      "https://zklockow.pl/img/960/lego-architecture-21062-fontanna-di-trevi-1.jpg",
-    alt: "Trevi",
   },
   {
     setNumber: 10350,
@@ -71,22 +39,6 @@ export const LegoWishlis = [
     alt: "icons",
   },
   {
-    setNumber: 10327,
-    price: 508,
-    url: "https://zklockow.pl/lego-10327-icons-diuna-atreides-royal-ornithopter",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-10327-diuna-atreides-royal-ornithopter-1.jpg",
-    alt: "orni",
-  },
-  {
-    setNumber: 21353,
-    price: 1350,
-    url: "https://zklockow.pl/lego-21353-ideas-ogrod-botaniczny",
-    image:
-      "https://zklockow.pl/img/960/lego-ideas-21353-ogrod-botaniczny-1.jpg",
-    alt: "bot",
-  },
-  {
     setNumber: 10283,
     price: 616,
     url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
@@ -101,6 +53,14 @@ export const LegoWishlis = [
     image:
       "https://zklockow.pl/img/960/lego-icons-10351-sherlock-holmes-book-nook-1.jpg",
     alt: "nook",
+  },
+  {
+    setNumber: 10300,
+    price: 734,
+    url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
+    image:
+      "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
+    alt: "back",
   },
   // {
   //   setNumber: 21063,
