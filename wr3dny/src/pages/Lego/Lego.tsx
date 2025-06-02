@@ -1,8 +1,10 @@
-import { LegoWishlis } from "../../const/lego";
+import { LegoWishlist } from "../../const/lego";
 import styles from "./Lego.module.css";
 
 export const Lego = () => {
-  const sortedLegoWishlist = [...LegoWishlis].sort((a, b) => a.price - b.price);
+  const sortedLegoWishlist = [...LegoWishlist].sort(
+    (a, b) => a.price - b.price
+  );
 
   return (
     <div className={styles.container}>

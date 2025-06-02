@@ -1,10 +1,19 @@
-export const LegoWishlis = [
+export type LegoSet = {
+  setNumber: number;
+  price: number;
+  url: string;
+  image: string;
+  alt: string;
+  series: string;
+};
+export const LegoWishlist: LegoSet[] = [
   {
     setNumber: 10297,
     price: 848,
     url: "https://zklockow.pl/lego-10297-hotel-butikowy",
     image: "https://zklockow.pl/img/640/lego-10297-hotel-butikowy-1.jpg",
     alt: "Hotel",
+    series: "Creator Expert",
   },
   {
     setNumber: 42202,
@@ -12,7 +21,8 @@ export const LegoWishlis = [
     url: "https://zklockow.pl/lego-42202-technic-motocykl-ducati-panigale-v4-s",
     image:
       "https://zklockow.pl/img/960/lego-technic-42202-motocykl-ducati-panigale-v4-s-1.jpg",
-    alt: "ducati",
+    alt: "Ducati",
+    series: "Technic",
   },
   {
     setNumber: 10350,
@@ -21,6 +31,7 @@ export const LegoWishlis = [
     image:
       "https://zklockow.pl/img/960/lego-icons-10350-dom-w-stylu-angielskim-0.jpg",
     alt: "Pub",
+    series: "Icons",
   },
   {
     setNumber: 42182,
@@ -29,6 +40,7 @@ export const LegoWishlis = [
     image:
       "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
     alt: "Trevi",
+    series: "Technic",
   },
   {
     setNumber: 43227,
@@ -36,7 +48,8 @@ export const LegoWishlis = [
     url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
     image:
       "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
-    alt: "icons",
+    alt: "Icons",
+    series: "Disney",
   },
   {
     setNumber: 10283,
@@ -44,7 +57,8 @@ export const LegoWishlis = [
     url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
     image:
       "https://zklockow.pl/img/960/lego-10283-wahadlowiec-discovery-nasa-1.jpg",
-    alt: "disc",
+    alt: "Discovery",
+    series: "Creator Expert",
   },
   {
     setNumber: 10351,
@@ -52,7 +66,8 @@ export const LegoWishlis = [
     url: "https://zklockow.pl/lego-10351-icons-sherlock-holmes-book-nook",
     image:
       "https://zklockow.pl/img/960/lego-icons-10351-sherlock-holmes-book-nook-1.jpg",
-    alt: "nook",
+    alt: "Book Nook",
+    series: "Icons",
   },
   {
     setNumber: 10300,
@@ -60,13 +75,121 @@ export const LegoWishlis = [
     url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
     image:
       "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
-    alt: "back",
+    alt: "Back to the Future",
+    series: "Icons",
   },
-  // {
-  //   setNumber: 21063,
-  //   price: 1060,
-  //   url: "",
-  //   image: "",
-  //   alt: "Neu",
-  // },
+  {
+    setNumber: 21327,
+    price: 1287.65,
+    url: "https://zklockow.pl/lego-21327-ideas-maszyna-do-pisania",
+    image:
+      "https://zklockow.pl/img/960/lego-21327-ideas-maszyna-do-pisania-1.jpg",
+    alt: "Maszyna do pisania",
+    series: "Ideas",
+  },
+  {
+    setNumber: 75351,
+    price: 271.58,
+    url: "https://zklockow.pl/lego-75351-star-wars-helm-ksiezniczki-lei-boushh",
+    image:
+      "https://zklockow.pl/img/960/lego-75351-star-wars-helm-ksiezniczki-lei-boushh-1.jpg",
+    alt: "Hełm księżniczki Lei (Boushh)",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 75349,
+    price: 209.9,
+    url: "https://zklockow.pl/lego-75349-star-wars-helm-kapitana-rexa",
+    image:
+      "https://zklockow.pl/img/960/lego-75349-star-wars-helm-kapitana-rexa-1.jpg",
+    alt: "Hełm kapitana Rexa",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 75350,
+    price: 292.69,
+    url: "https://zklockow.pl/lego-75350-star-wars-helm-dowodcy-klonow-codyego",
+    image:
+      "https://zklockow.pl/img/960/lego-75350-star-wars-helm-dowodcy-klonow-codyego-1.jpg",
+    alt: "Hełm dowódcy klonów Cody'ego",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 75343,
+    price: 369.95,
+    url: "https://zklockow.pl/lego-75343-star-wars-helm-mrocznego-szturmowca",
+    image:
+      "https://zklockow.pl/img/960/lego-75343-star-wars-helm-mrocznego-szturmowca-1.jpg",
+    alt: "Hełm mrocznego szturmowca",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 75328,
+    price: 197,
+    url: "https://zklockow.pl/lego-75328-star-wars-helm-mandalorianina",
+    image:
+      "https://zklockow.pl/img/960/lego-75328-star-wars-helm-mandalorianina-1.jpg",
+    alt: "Hełm Mandalorianina",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 75327,
+    price: 318,
+    url: "https://zklockow.pl/lego-75327-star-wars-helm-lukea-skywalkera-czerwony-piec",
+    image:
+      "https://zklockow.pl/img/960/lego-75327-star-wars-helm-lukea-skywalkera-czerwony-piec-1.jpg",
+    alt: "Hełm Luke'a Skywalkera — Czerwony Pięć",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 76187,
+    price: 409,
+    url: "https://zklockow.pl/lego-76187-marvel-venom",
+    image: "https://zklockow.pl/img/960/lego-76187-marvel-venom-1.jpg",
+    alt: "Venom",
+    series: "Marvel",
+  },
+  {
+    setNumber: 75304,
+    price: 232.5,
+    url: "https://zklockow.pl/lego-75304-star-wars-helm-dartha-vadera",
+    image:
+      "https://zklockow.pl/img/960/lego-75304-star-wars-helm-dartha-vadera-1.jpg",
+    alt: "Hełm Dartha Vadera",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 76199,
+    price: 329.99,
+    url: "https://zklockow.pl/lego-76199-marvel-carnage",
+    image: "https://zklockow.pl/img/960/lego-76199-marvel-carnage-1.jpg",
+    alt: "Carnage",
+    series: "Marvel",
+  },
+  {
+    setNumber: 75277,
+    price: 299,
+    url: "https://zklockow.pl/lego-75277-star-wars-helm-boby-fetta",
+    image:
+      "https://zklockow.pl/img/960/lego-75277-star-wars-helm-boby-fetta-1.jpg",
+    alt: "Hełm Boby Fetta",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 10275,
+    price: 399,
+    url: "https://zklockow.pl/lego-10275-elfi-dom-swiateczny",
+    image: "https://zklockow.pl/img/960/lego-10275-elfi-dom-swiateczny-1.jpg",
+    alt: "Elfi dom świąteczny",
+    series: "Creator Expert",
+  },
+  {
+    setNumber: 10370,
+    price: 999.99,
+    url: "https://zklockow.pl/lego-10370-icons-kamienica-w-stylu-wloskim",
+    image:
+      "https://zklockow.pl/img/960/lego-10370-icons-kamienica-w-stylu-wloskim-1.jpg",
+    alt: "Kamienica",
+    series: "",
+  },
 ];
