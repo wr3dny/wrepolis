@@ -1,10 +1,8 @@
-import { LegoWishlist } from "../../const/lego";
 import styles from "./Lego.module.css";
+import { useListOrganizer } from "./useListOrganizer";
 
 export const Lego = () => {
-  const sortedLegoWishlist = [...LegoWishlist].sort(
-    (a, b) => a.price - b.price
-  );
+  const { sortedLegoWishlist } = useListOrganizer();
 
   return (
     <div className={styles.container}>

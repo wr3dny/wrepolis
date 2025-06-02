@@ -192,4 +192,107 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Kamienica",
     series: "",
   },
+  {
+    setNumber: 10311,
+    price: 149.97,
+    url: "https://zklockow.pl/lego-10311-orchidea",
+    image: "https://zklockow.pl/img/960/lego-icons-10311-orchidea-1.jpg",
+    alt: "Orchidea",
+    series: "Icons",
+  },
+  {
+    setNumber: 10369,
+    price: 89.9,
+    url: "https://zklockow.pl/lego-10369-icons-kwiat-sliwy",
+    image: "https://zklockow.pl/img/960/lego-icons-10369-kwiat-sliwy-1.jpg",
+    alt: "Kwiat śliwy",
+    series: "Icons",
+  },
+  {
+    setNumber: 10295,
+    price: 539.0,
+    url: "https://zklockow.pl/lego-10295-porsche-911",
+    image: "https://zklockow.pl/img/960/lego-creator-10295-porsche-911-1.jpg",
+    alt: "Porsche 911",
+    series: "Creator Expert",
+  },
+  {
+    setNumber: 10343,
+    price: 82.0,
+    url: "https://zklockow.pl/lego-10343-botanicals-mala-orchidea",
+    image:
+      "https://zklockow.pl/img/960/lego-botanicals-10343-mala-orchidea-1.jpg",
+    alt: "Mała orchidea",
+    series: "Botanicals",
+  },
+  {
+    setNumber: 10331,
+    price: 154.0,
+    url: "https://zklockow.pl/lego-10331-icons-zimorodek",
+    image: "https://zklockow.pl/img/960/lego-icons-10331-zimorodek-1.jpg",
+    alt: "Zimorodek",
+    series: "Icons",
+  },
+  {
+    setNumber: 76419,
+    price: 571.85,
+    url: "https://zklockow.pl/lego-76419-harry-potter-zamek-hogwart-i-blonia",
+    image:
+      "https://zklockow.pl/img/960/lego-harry-potter-76419-zamek-hogwart-i-blonia-1.jpg",
+    alt: "Zamek Hogwart i błonia",
+    series: "Harry Potter",
+  },
+  {
+    setNumber: 76414,
+    price: 329.0,
+    url: "https://zklockow.pl/lego-76414-harry-potter-expecto-patronum",
+    image:
+      "https://zklockow.pl/img/960/lego-harry-potter-76414-expecto-patronum-1.jpg",
+    alt: "Expecto Patronum",
+    series: "Harry Potter",
+  },
+  {
+    setNumber: 21342,
+    price: 303.89,
+    url: "https://zklockow.pl/lego-21342-ideas-kolekcja-owadow",
+    image: "https://zklockow.pl/img/960/lego-ideas-21342-kolekcja-owadow-1.jpg",
+    alt: "Kolekcja owadów",
+    series: "Ideas",
+  },
+  {
+    setNumber: 10266,
+    price: 449.99,
+    url: "https://zklockow.pl/lego-10266-creator-expert-ladownik-ksiezycowy-apollo-11-nasa",
+    image:
+      "https://zklockow.pl/img/960/lego-creator-expert-10266-ladownik-ksiezycowy-apollo-11-nasa-1.jpg",
+    alt: "Lądownik księżycowy Apollo 11 NASA",
+    series: "Creator Expert",
+  },
+  {
+    setNumber: 31133,
+    price: 69.9,
+    url: "https://zklockow.pl/lego-31133-creator-3-w-1-bialy-krolik",
+    image:
+      "https://zklockow.pl/img/960/lego-creator-3-w-1-31133-bialy-krolik-1.jpg",
+    alt: "Biały królik",
+    series: "Creator 3 w 1",
+  },
+  {
+    setNumber: 76191,
+    price: 287.99,
+    url: "https://zklockow.pl/lego-76191-marvel-rekawica-nieskonczonosci",
+    image:
+      "https://zklockow.pl/img/960/lego-marvel-76191-rekawica-nieskonczonosci-1.jpg",
+    alt: "Rękawica Nieskończoności",
+    series: "Marvel",
+  },
+  {
+    setNumber: 75330,
+    price: 999.99,
+    url: "https://zklockow.pl/lego-75330-star-wars-diorama-sala-tronu-imperatora",
+    image:
+      "https://zklockow.pl/img/960/lego-star-wars-75330-diorama-sala-tronu-imperatora-1.jpg",
+    alt: "Diorama: Sala Tronu Imperatora",
+    series: "Star Wars",
+  },
 ];
