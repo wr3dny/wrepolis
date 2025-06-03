@@ -1,6 +1,7 @@
 export type LegoSet = {
   setNumber: number;
   price: number;
+  year: number;
   url: string;
   image: string;
   alt: string;
@@ -9,6 +10,7 @@ export type LegoSet = {
 export const LegoWishlist: LegoSet[] = [
   {
     setNumber: 10297,
+    year: 2022,
     price: 848,
     url: "https://zklockow.pl/lego-10297-hotel-butikowy",
     image: "https://zklockow.pl/img/640/lego-10297-hotel-butikowy-1.jpg",
@@ -17,6 +19,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 42202,
+    year: 2025,
     price: 635,
     url: "https://zklockow.pl/lego-42202-technic-motocykl-ducati-panigale-v4-s",
     image:
@@ -26,6 +29,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10350,
+    year: 2025,
     price: 999,
     url: "https://zklockow.pl/lego-10350-icons-dom-w-stylu-angielskim",
     image:
@@ -35,6 +39,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 42182,
+    year: 2024,
     price: 649,
     url: "https://zklockow.pl/lego-42182-technic-nasa-apollo-pojazd-lrv",
     image:
@@ -44,6 +49,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 43227,
+    year: 2023,
     price: 449,
     url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
     image:
@@ -53,6 +59,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10283,
+    year: 2021,
     price: 616,
     url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
     image:
@@ -62,6 +69,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10351,
+    year: 2025,
     price: 559,
     url: "https://zklockow.pl/lego-10351-icons-sherlock-holmes-book-nook",
     image:
@@ -71,6 +79,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10300,
+    year: 2022,
     price: 734,
     url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
     image:
@@ -80,6 +89,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 21327,
+    year: 2022,
     price: 1287.65,
     url: "https://zklockow.pl/lego-21327-ideas-maszyna-do-pisania",
     image:
@@ -89,6 +99,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75351,
+    year: 2022,
     price: 271.58,
     url: "https://zklockow.pl/lego-75351-star-wars-helm-ksiezniczki-lei-boushh",
     image:
@@ -98,6 +109,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75349,
+    year: 2022,
     price: 209.9,
     url: "https://zklockow.pl/lego-75349-star-wars-helm-kapitana-rexa",
     image:
@@ -107,6 +119,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75350,
+    year: 2022,
     price: 292.69,
     url: "https://zklockow.pl/lego-75350-star-wars-helm-dowodcy-klonow-codyego",
     image:
@@ -116,6 +129,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75343,
+    year: 2022,
     price: 369.95,
     url: "https://zklockow.pl/lego-75343-star-wars-helm-mrocznego-szturmowca",
     image:
@@ -125,6 +139,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75328,
+    year: 2022,
     price: 197,
     url: "https://zklockow.pl/lego-75328-star-wars-helm-mandalorianina",
     image:
@@ -134,6 +149,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75327,
+    year: 2022,
     price: 318,
     url: "https://zklockow.pl/lego-75327-star-wars-helm-lukea-skywalkera-czerwony-piec",
     image:
@@ -143,6 +159,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 76187,
+    year: 2022,
     price: 409,
     url: "https://zklockow.pl/lego-76187-marvel-venom",
     image: "https://zklockow.pl/img/960/lego-76187-marvel-venom-1.jpg",
@@ -151,6 +168,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75304,
+    year: 2022,
     price: 232.5,
     url: "https://zklockow.pl/lego-75304-star-wars-helm-dartha-vadera",
     image:
@@ -160,6 +178,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 76199,
+    year: 2022,
     price: 329.99,
     url: "https://zklockow.pl/lego-76199-marvel-carnage",
     image: "https://zklockow.pl/img/960/lego-76199-marvel-carnage-1.jpg",
@@ -168,6 +187,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75277,
+    year: 2022,
     price: 299,
     url: "https://zklockow.pl/lego-75277-star-wars-helm-boby-fetta",
     image:
@@ -177,6 +197,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10275,
+    year: 2022,
     price: 399,
     url: "https://zklockow.pl/lego-10275-elfi-dom-swiateczny",
     image: "https://zklockow.pl/img/960/lego-10275-elfi-dom-swiateczny-1.jpg",
@@ -185,6 +206,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10370,
+    year: 2022,
     price: 999.99,
     url: "https://zklockow.pl/lego-10370-icons-kamienica-w-stylu-wloskim",
     image:
@@ -194,6 +216,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10311,
+    year: 2022,
     price: 149.97,
     url: "https://zklockow.pl/lego-10311-orchidea",
     image: "https://zklockow.pl/img/960/lego-icons-10311-orchidea-1.jpg",
@@ -202,6 +225,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10369,
+    year: 2022,
     price: 89.9,
     url: "https://zklockow.pl/lego-10369-icons-kwiat-sliwy",
     image: "https://zklockow.pl/img/960/lego-icons-10369-kwiat-sliwy-1.jpg",
@@ -210,6 +234,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10295,
+    year: 2022,
     price: 539.0,
     url: "https://zklockow.pl/lego-10295-porsche-911",
     image: "https://zklockow.pl/img/960/lego-creator-10295-porsche-911-1.jpg",
@@ -218,6 +243,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10343,
+    year: 2022,
     price: 82.0,
     url: "https://zklockow.pl/lego-10343-botanicals-mala-orchidea",
     image:
@@ -227,6 +253,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10331,
+    year: 2022,
     price: 154.0,
     url: "https://zklockow.pl/lego-10331-icons-zimorodek",
     image: "https://zklockow.pl/img/960/lego-icons-10331-zimorodek-1.jpg",
@@ -235,6 +262,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 76419,
+    year: 2022,
     price: 571.85,
     url: "https://zklockow.pl/lego-76419-harry-potter-zamek-hogwart-i-blonia",
     image:
@@ -244,6 +272,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 76414,
+    year: 2022,
     price: 329.0,
     url: "https://zklockow.pl/lego-76414-harry-potter-expecto-patronum",
     image:
@@ -253,6 +282,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 21342,
+    year: 2022,
     price: 303.89,
     url: "https://zklockow.pl/lego-21342-ideas-kolekcja-owadow",
     image: "https://zklockow.pl/img/960/lego-ideas-21342-kolekcja-owadow-1.jpg",
@@ -261,6 +291,7 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 10266,
+    year: 2022,
     price: 449.99,
     url: "https://zklockow.pl/lego-10266-creator-expert-ladownik-ksiezycowy-apollo-11-nasa",
     image:
@@ -270,15 +301,17 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 31133,
+    year: 2022,
     price: 69.9,
     url: "https://zklockow.pl/lego-31133-creator-3-w-1-bialy-krolik",
     image:
       "https://zklockow.pl/img/960/lego-creator-3-w-1-31133-bialy-krolik-1.jpg",
     alt: "Biały królik",
-    series: "Creator 3 w 1",
+    series: "Creator 3 in 1",
   },
   {
     setNumber: 76191,
+    year: 2022,
     price: 287.99,
     url: "https://zklockow.pl/lego-76191-marvel-rekawica-nieskonczonosci",
     image:
@@ -288,11 +321,184 @@ export const LegoWishlist: LegoSet[] = [
   },
   {
     setNumber: 75330,
+    year: 2022,
     price: 999.99,
     url: "https://zklockow.pl/lego-75330-star-wars-diorama-sala-tronu-imperatora",
     image:
       "https://zklockow.pl/img/960/lego-star-wars-75330-diorama-sala-tronu-imperatora-1.jpg",
     alt: "Diorama: Sala Tronu Imperatora",
     series: "Star Wars",
+  },
+
+  {
+    setNumber: 6103,
+    year: 1988,
+    price: 0,
+    url: "https://brickset.com/sets/6103-1",
+    image: "https://images.brickset.com/sets/images/6103-1.jpg",
+    alt: "Castle Mini Figures",
+    series: "Castle",
+  },
+  {
+    setNumber: 6703,
+    year: 1988,
+    price: 0,
+    url: "https://brickset.com/sets/6703-1",
+    image: "https://images.brickset.com/sets/images/6703-1.jpg",
+    alt: "Minifig Pack",
+    series: "Space",
+  },
+  {
+    setNumber: 8712,
+    year: 1988,
+    price: 0,
+    url: "https://brickset.com/sets/8712-1",
+    image: "https://images.brickset.com/sets/images/8712-1.jpg",
+    alt: "Technic Figures",
+    series: "Technic",
+  },
+  {
+    setNumber: 6257,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6257-1",
+    image: "https://images.brickset.com/sets/images/6257-1.jpg",
+    alt: "Castaway's Raft",
+    series: "Pirates",
+  },
+  {
+    setNumber: 6660,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6660-1",
+    image: "https://images.brickset.com/sets/images/6660-1.jpg",
+    alt: "Hook & Haul Wrecker",
+    series: "Town",
+  },
+  {
+    setNumber: 6482,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6482-1",
+    image: "https://images.brickset.com/sets/images/6482-1.jpg",
+    alt: "Rescue Helicopter",
+    series: "Town",
+  },
+  {
+    setNumber: 6481,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6481-1",
+    image: "https://images.brickset.com/sets/images/6481-1.jpg",
+    alt: "Construction Crew",
+    series: "Town",
+  },
+  {
+    setNumber: 6850,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6850-1",
+    image: "https://images.brickset.com/sets/images/6850-1.jpg",
+    alt: "Auxiliary Patroller",
+    series: "Space",
+  },
+  {
+    setNumber: 8024,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/8024-1",
+    image: "https://images.brickset.com/sets/images/8024-1.jpg",
+    alt: "Universal Set",
+    series: "Technic",
+  },
+  {
+    setNumber: 6923,
+    year: 1983,
+    price: 0,
+    url: "https://brickset.com/sets/6923-1",
+    image: "https://images.brickset.com/sets/images/6923-1.jpg",
+    alt: "Particle Ioniser",
+    series: "Space",
+  },
+  {
+    setNumber: 6833,
+    year: 1987,
+    price: 0,
+    url: "https://brickset.com/sets/6833-1",
+    image: "https://images.brickset.com/sets/images/6833-1.jpg",
+    alt: "Beacon Tracer",
+    series: "Space",
+  },
+  {
+    setNumber: 6644,
+    year: 1988,
+    price: 0,
+    url: "https://brickset.com/sets/6644-1",
+    image: "https://images.brickset.com/sets/images/6644-1.jpg",
+    alt: "Road Rebel",
+    series: "Town",
+  },
+  {
+    setNumber: 6672,
+    year: 1986,
+    price: 0,
+    url: "https://brickset.com/sets/6672-1",
+    image: "https://images.brickset.com/sets/images/6672-1.jpg",
+    alt: "Tow Truck",
+    series: "Town",
+  },
+  {
+    setNumber: 6353,
+    year: 1988,
+    price: 0,
+    url: "https://brickset.com/sets/6353-1",
+    image: "https://images.brickset.com/sets/images/6353-1.jpg",
+    alt: "Coastal Cutter",
+    series: "Town",
+  },
+  {
+    setNumber: 6532,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6532-1",
+    image: "https://images.brickset.com/sets/images/6532-1.jpg",
+    alt: "Diesel Dumper",
+    series: "Town",
+  },
+  {
+    setNumber: 8720,
+    year: 1991,
+    price: 0,
+    url: "https://brickset.com/sets/8720-1",
+    image: "https://images.brickset.com/sets/images/8720-1.jpg",
+    alt: "Technic Figures",
+    series: "Technic",
+  },
+  {
+    setNumber: 6704,
+    year: 1989,
+    price: 0,
+    url: "https://brickset.com/sets/6704-1",
+    image: "https://images.brickset.com/sets/images/6704-1.jpg",
+    alt: "Minifig Pack",
+    series: "Space",
+  },
+  {
+    setNumber: 6534,
+    year: 1992,
+    price: 0,
+    url: "https://brickset.com/sets/6534-1",
+    image: "https://images.brickset.com/sets/images/6534-1.jpg",
+    alt: "Beach Bandit",
+    series: "Town",
+  },
+  {
+    setNumber: 6814,
+    year: 1990,
+    price: 0,
+    url: "https://brickset.com/sets/6814-1",
+    image: "https://images.brickset.com/sets/images/6814-1.jpg",
+    alt: "Ice Tunnelator",
+    series: "Space",
   },
 ];
