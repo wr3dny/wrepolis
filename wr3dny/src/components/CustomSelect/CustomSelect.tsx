@@ -1,4 +1,5 @@
-import React, { ChangeEvent } from "react";
+import { ChangeEvent } from "react";
+import styles from "./CustomSelect.module.css";
 
 export interface Option {
   label: string;
@@ -6,7 +7,6 @@ export interface Option {
 }
 
 interface Props {
-  label?: string;
   options: Option[];
   value: string | number;
   onChange: (value: string | number) => void;
@@ -16,7 +16,6 @@ interface Props {
 }
 
 export const CustomSelect = ({
-  label,
   options,
   value,
   onChange,
@@ -28,30 +27,22 @@ export const CustomSelect = ({
     onChange(event.target.value);
   };
 
+  console.log(value);
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", maxWidth: 300 }}>
-      {label && (
-        <label htmlFor={name} style={{ marginBottom: 4 }}>
-          {label}
-        </label>
-      )}
+    <div className={styles.container}>
       <select
         id={name}
         name={name}
         value={value}
         onChange={handleChange}
         disabled={disabled}
-        style={{
-          padding: "8px 12px",
-          border: "1px solid #ccc",
-          borderRadius: 4,
-          fontSize: "1rem",
-        }}
+        className={styles.select}
       >
         {placeholder && <option value="">{placeholder}</option>}
         {options.map((opt) => (
           <option key={opt.value} value={opt.value}>
-            {opt.label}
+            <div className={styles.value}> {opt.label}</div>
           </option>
         ))}
       </select>

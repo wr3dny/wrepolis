@@ -7,26 +7,18 @@ export const useListOrganizer = () => {
   );
 
   const wantedSets = LegoWishlist.filter(
-    (item1) => !ownedSets.some((item2) => item1.setNumber === item2.setNumber)
+    (item1) => !ownedSets.some((item2) => item1.price === item2.price)
   );
 
   const sortedLegoWishlist = [...wantedSets].sort((a, b) => a.price - b.price);
 
-  const sortedOwnedList = [...ownedSets].sort(
-    (a, b) => a.setNumber - b.setNumber
-  );
+  const sortedOwnedList = [...ownedSets].sort((a, b) => a.year - b.year);
 
-  const setSeries = [...new Set(LegoWishlist.map((set) => set.series))];
-
-  //   .map(set => set.series) extracts the series property from each object.
-
-  // new Set(...) removes duplicates.
-
-  // [...new Set(...)] converts the Set back to an array.
+  const seriesName = [...new Set(LegoWishlist.map((set) => set.series))];
 
   return {
     sortedLegoWishlist,
     sortedOwnedList,
-    setSeries,
+    seriesName,
   };
 };

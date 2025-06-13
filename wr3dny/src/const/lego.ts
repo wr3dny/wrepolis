@@ -501,4 +501,14 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Ice Tunnelator",
     series: "Space",
   },
+  {
+    setNumber: 10357,
+    year: 2025,
+    price: 669,
+    url: "https://zklockow.pl/lego-10357-icons-shelby-cobra-427-s-c",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10357-shelby-cobra-427-s-c-1.jpg",
+    alt: "Cobra",
+    series: "Icons",
+  },
 ];
