@@ -11,22 +11,18 @@
 }
 .navbar {
   grid-area: navbar;
-  background-color: aqua;
 }
 
 .sidebar {
   grid-area: sidebar;
-  border: 2px solid red;
 }
 
 .container {
   grid-area: container;
-  border: 2px solid green;
 }
 
 .footer {
   grid-area: footer;
-  background-color: yellow;
 }
 
 @media (max-width: 768px) {

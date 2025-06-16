@@ -27,16 +27,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Pub",
     series: "Icons",
   },
-  {
-    setNumber: 10316,
-    year: 2023,
-    price: 1799.0,
-    url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
-    alt: "Władca Pierścieni: Rivendell™",
-    series: "Icons",
-  },
+  // {
+  //   setNumber: 10316,
+  //   year: 2023,
+  //   price: 1799.0,
+  //   url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
+  //   alt: "Władca Pierścieni: Rivendell™",
+  //   series: "Icons",
+  // },
   {
     setNumber: 21347,
     year: 2024,
@@ -47,16 +47,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Czerwona londyńska budka telefoniczna",
     series: "Ideas",
   },
-  {
-    setNumber: 10333,
-    year: 2024,
-    price: 1737.1,
-    url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
-    alt: "Władca Pierścieni: Baraddûr™",
-    series: "Icons",
-  },
+  // {
+  //   setNumber: 10333,
+  //   year: 2024,
+  //   price: 1737.1,
+  //   url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
+  //   alt: "Władca Pierścieni: Baraddûr™",
+  //   series: "Icons",
+  // },
 
   // {
   //   setNumber: 42182,
@@ -219,11 +219,11 @@ export const LegoWishlist: LegoSet[] = [
     setNumber: 10370,
     year: 2022,
     price: 999.99,
-    url: "https://zklockow.pl/lego-10370-icons-kamienica-w-stylu-wloskim",
+    url: "https://zklockow.pl/lego-10370-icons-gwiazda-betlejemska",
     image:
-      "https://zklockow.pl/img/960/lego-10370-icons-kamienica-w-stylu-wloskim-1.jpg",
-    alt: "Kamienica",
-    series: "",
+      "https://zklockow.pl/img/960/lego-icons-10370-gwiazda-betlejemska-1.jpg",
+    alt: "Gwiazda",
+    series: "Icons",
   },
   {
     setNumber: 10311,

@@ -14,11 +14,11 @@ export const useListOrganizer = () => {
 
   const sortedOwnedList = [...ownedSets].sort((a, b) => a.year - b.year);
 
-  const seriesName = [...new Set(LegoWishlist.map((set) => set.series))];
+  const seriesNames = [...new Set(LegoWishlist.map((set) => set.series))];
 
   return {
     sortedLegoWishlist,
     sortedOwnedList,
-    seriesName,
+    seriesNames,
   };
 };
