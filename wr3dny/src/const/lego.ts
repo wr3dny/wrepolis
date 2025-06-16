@@ -18,55 +18,66 @@ export const LegoWishlist: LegoSet[] = [
     series: "Creator Expert",
   },
   {
-    setNumber: 42202,
-    year: 2025,
-    price: 635,
-    url: "https://zklockow.pl/lego-42202-technic-motocykl-ducati-panigale-v4-s",
-    image:
-      "https://zklockow.pl/img/960/lego-technic-42202-motocykl-ducati-panigale-v4-s-1.jpg",
-    alt: "Ducati",
-    series: "Technic",
-  },
-  {
     setNumber: 10350,
     year: 2025,
     price: 999,
     url: "https://zklockow.pl/lego-10350-icons-dom-w-stylu-angielskim",
     image:
-      "https://zklockow.pl/img/960/lego-icons-10350-dom-w-stylu-angielskim-0.jpg",
+      "https://zklockow.pl/img/960/lego-icons-10350-dom-w-stylu-angielskim-1.jpg",
     alt: "Pub",
     series: "Icons",
   },
   {
-    setNumber: 42182,
-    year: 2024,
-    price: 649,
-    url: "https://zklockow.pl/lego-42182-technic-nasa-apollo-pojazd-lrv",
-    image:
-      "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
-    alt: "Trevi",
-    series: "Technic",
-  },
-  {
-    setNumber: 43227,
+    setNumber: 10316,
     year: 2023,
-    price: 449,
-    url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
+    price: 1799.0,
+    url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
     image:
-      "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
-    alt: "Icons",
-    series: "Disney",
+      "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
+    alt: "Władca Pierścieni: Rivendell™",
+    series: "Icons",
   },
   {
-    setNumber: 10283,
-    year: 2021,
-    price: 616,
-    url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
+    setNumber: 21347,
+    year: 2024,
+    price: 419.0,
+    url: "https://zklockow.pl/lego-21347-ideas-czerwona-londynska-budka-telefoniczna",
     image:
-      "https://zklockow.pl/img/960/lego-10283-wahadlowiec-discovery-nasa-1.jpg",
-    alt: "Discovery",
-    series: "Creator Expert",
+      "https://zklockow.pl/img/960/lego-ideas-21347-czerwona-londynska-budka-telefoniczna-1.jpg",
+    alt: "Czerwona londyńska budka telefoniczna",
+    series: "Ideas",
   },
+  {
+    setNumber: 10333,
+    year: 2024,
+    price: 1737.1,
+    url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
+    alt: "Władca Pierścieni: Baraddûr™",
+    series: "Icons",
+  },
+
+  // {
+  //   setNumber: 42182,
+  //   year: 2024,
+  //   price: 649,
+  //   url: "https://zklockow.pl/lego-42182-technic-nasa-apollo-pojazd-lrv",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
+  //   alt: "Trevi",
+  //   series: "Technic",
+  // },
+  // {
+  //   setNumber: 43227,
+  //   year: 2023,
+  //   price: 449,
+  //   url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
+  //   alt: "Icons",
+  //   series: "Disney",
+  // },
   {
     setNumber: 10351,
     year: 2025,
@@ -77,16 +88,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Book Nook",
     series: "Icons",
   },
-  {
-    setNumber: 10300,
-    year: 2022,
-    price: 734,
-    url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
-    image:
-      "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
-    alt: "Back to the Future",
-    series: "Icons",
-  },
+  // {
+  //   setNumber: 10300,
+  //   year: 2022,
+  //   price: 734,
+  //   url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
+  //   alt: "Back to the Future",
+  //   series: "Icons",
+  // },
   {
     setNumber: 21327,
     year: 2022,
