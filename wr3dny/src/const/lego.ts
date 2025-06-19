@@ -759,4 +759,124 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Mountais Castle",
     series: "Castle",
   },
+  {
+    setNumber: 31147,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-31147-creator-3-w-1-aparat-w-stylu-retro",
+    image:
+      "https://zklockow.pl/img/960/lego-creator-3-w-1-31147-aparat-w-stylu-retro-1.jpg",
+    alt: "Photo",
+    series: "Creator 3 in 1",
+  },
+  {
+    setNumber: 10457,
+    year: 2025,
+    price: 0,
+    url: "https://zklockow.pl/lego-10457-disney-przyjecie-urodzinowe-kubusia-puchatka",
+    image:
+      "https://zklockow.pl/img/960/lego-disney-10457-przyjecie-urodzinowe-kubusia-puchatka-1.jpg",
+    alt: "Puch",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10431,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-10431-duplo-ogrod-i-domek-na-drzewie-peppy",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10431-ogrod-i-domek-na-drzewie-peppy-1.jpg",
+    alt: "Pepa",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10982,
+    year: 2023,
+    price: 0,
+    url: "https://zklockow.pl/lego-10982-duplo-traktor-z-warzywami-i-owocami",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10982-traktor-z-warzywami-i-owocami-1.jpg",
+    alt: "Traktor",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10412,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-10412-duplo-pociag-ze-zwierzatkami",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10412-pociag-ze-zwierzatkami-1.jpg",
+    alt: "Pociag",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10965,
+    year: 2022,
+    price: 0,
+    url: "https://zklockow.pl/lego-10965-duplo-zabawa-w-kapieli-plywajacy-pociag-ze-zwierzatkami",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10965-zabawa-w-kapieli-plywajacy-pociag-ze-zwierzatkami-1.jpg",
+    alt: "Wanna",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10422,
+    year: 2025,
+    price: 0,
+    url: "https://zklockow.pl/lego-10442-duplo-rodziny-dzikich-zwierzat-pingwiny-i-lwy",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10442-rodziny-dzikich-zwierzat-pingwiny-i-lwy-1.jpg",
+    alt: "Zoo",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10419,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-10419-duplo-opieka-nad-pszczolami-i-ulami",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10419-opieka-nad-pszczolami-i-ulami-1.jpg",
+    alt: "Bee",
+    series: "Duplo",
+  },
+  {
+    setNumber: 10418,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-10418-duplo-elza-i-bruni-w-zaczarowanym-lesie",
+    image:
+      "https://zklockow.pl/img/960/lego-duplo-10418-elza-i-bruni-w-zaczarowanym-lesie-1.jpg",
+    alt: "Elsa",
+    series: "Duplo",
+  },
+  {
+    setNumber: 43230,
+    year: 2023,
+    price: 0,
+    url: "https://zklockow.pl/lego-43230-disney-kamera-walta-disneya",
+    image:
+      "https://zklockow.pl/img/960/lego-disney-43230-kamera-walta-disneya-1.jpg",
+    alt: "Kamera",
+    series: "Disney",
+  },
+  {
+    setNumber: 42179,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-42179-technic-planeta-ziemia-i-ksiezyc-na-orbicie",
+    image:
+      "https://zklockow.pl/img/960/lego-technic-42179-planeta-ziemia-i-ksiezyc-na-orbicie-1.jpg",
+    alt: "Ziemia",
+    series: "Technic",
+  },
+  {
+    setNumber: 21325,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-21325-ideas-sredniowieczna-kuznia",
+    image:
+      "https://zklockow.pl/img/960/lego-ideas-21325-sredniowieczna-kuznia-1.jpg",
+    alt: "Kużnia",
+    series: "Ideas",
+  },
 ];
