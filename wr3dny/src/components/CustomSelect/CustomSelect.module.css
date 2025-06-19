@@ -5,13 +5,8 @@
 }
 
 .select {
-  padding: 8px 12px;
-  border: 1px solid darkcyan;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 12px;
-}
-
-.Icons {
-  background-color: red;
-  color: yellow;
+  font-size: 14px;
 }

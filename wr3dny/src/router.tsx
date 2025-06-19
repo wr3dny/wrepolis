@@ -5,7 +5,6 @@ import { Lego } from "./pages/Lego/Lego";
 import { ResponsiveView } from "./view/ResponsiveView/ResponsiveView";
 import { Home } from "./pages/Home/Home";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Sidebar } from "./components/Sidebar/Sidebar";
 
 export const RouterConfig = () => {
   return (
@@ -16,13 +15,7 @@ export const RouterConfig = () => {
       />
       <Route
         path={PATHS.LEGO}
-        element={
-          <ResponsiveView
-            content={<Lego />}
-            navbar={<Navbar />}
-            sidebar={<Sidebar />}
-          />
-        }
+        element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
       />
     </Routes>
   );

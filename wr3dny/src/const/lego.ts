@@ -18,6 +18,26 @@ export const LegoWishlist: LegoSet[] = [
     series: "Creator Expert",
   },
   {
+    setNumber: 42182,
+    year: 2024,
+    price: 584,
+    url: "https://zklockow.pl/lego-42182-technic-nasa-apollo-pojazd-lrv",
+    image:
+      "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
+    alt: "LRV",
+    series: "Technic",
+  },
+  {
+    setNumber: 21348,
+    year: 2024,
+    price: 1287,
+    url: "https://zklockow.pl/lego-21348-ideas-dungeons-dragons-opowiesc-czerwonego-smoka",
+    image:
+      "https://zklockow.pl/img/960/lego-ideas-21348-dungeons-dragons-opowiesc-czerwonego-smoka-1.jpg",
+    alt: "D&D",
+    series: "Ideas",
+  },
+  {
     setNumber: 10350,
     year: 2025,
     price: 999,
@@ -27,16 +47,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Pub",
     series: "Icons",
   },
-  // {
-  //   setNumber: 10316,
-  //   year: 2023,
-  //   price: 1799.0,
-  //   url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
-  //   image:
-  //     "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
-  //   alt: "Władca Pierścieni: Rivendell™",
-  //   series: "Icons",
-  // },
+  {
+    setNumber: 10316,
+    year: 2023,
+    price: 1799.0,
+    url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
+    alt: "Władca Pierścieni: Rivendell™",
+    series: "Icons",
+  },
   {
     setNumber: 21347,
     year: 2024,
@@ -47,37 +67,26 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Czerwona londyńska budka telefoniczna",
     series: "Ideas",
   },
-  // {
-  //   setNumber: 10333,
-  //   year: 2024,
-  //   price: 1737.1,
-  //   url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
-  //   image:
-  //     "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
-  //   alt: "Władca Pierścieni: Baraddûr™",
-  //   series: "Icons",
-  // },
-
-  // {
-  //   setNumber: 42182,
-  //   year: 2024,
-  //   price: 649,
-  //   url: "https://zklockow.pl/lego-42182-technic-nasa-apollo-pojazd-lrv",
-  //   image:
-  //     "https://zklockow.pl/img/960/lego-technic-42182-nasa-apollo-pojazd-lrv-1.jpg",
-  //   alt: "Trevi",
-  //   series: "Technic",
-  // },
-  // {
-  //   setNumber: 43227,
-  //   year: 2023,
-  //   price: 449,
-  //   url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
-  //   image:
-  //     "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
-  //   alt: "Icons",
-  //   series: "Disney",
-  // },
+  {
+    setNumber: 10333,
+    year: 2024,
+    price: 1737.1,
+    url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
+    alt: "Władca Pierścieni: Baraddûr™",
+    series: "Icons",
+  },
+  {
+    setNumber: 43227,
+    year: 2023,
+    price: 449,
+    url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
+    image:
+      "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
+    alt: "Icons",
+    series: "Disney",
+  },
   {
     setNumber: 10351,
     year: 2025,
@@ -88,16 +97,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Book Nook",
     series: "Icons",
   },
-  // {
-  //   setNumber: 10300,
-  //   year: 2022,
-  //   price: 734,
-  //   url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
-  //   image:
-  //     "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
-  //   alt: "Back to the Future",
-  //   series: "Icons",
-  // },
+  {
+    setNumber: 10300,
+    year: 2022,
+    price: 734,
+    url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
+    image:
+      "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
+    alt: "Back to the Future",
+    series: "Icons",
+  },
   {
     setNumber: 21327,
     year: 2022,
@@ -521,5 +530,233 @@ export const LegoWishlist: LegoSet[] = [
       "https://zklockow.pl/img/960/lego-icons-10357-shelby-cobra-427-s-c-1.jpg",
     alt: "Cobra",
     series: "Icons",
+  },
+  {
+    setNumber: 40751,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-40751-brickheadz-legolas-i-gimli",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40751-legolas-i-gimli-1.jpg",
+    alt: "Legolas i Gimli",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40673,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-40673-brickheadz-myszka-miki-w-stroju-na-wiosenny-festiwal",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40673-myszka-miki-w-stroju-na-wiosenny-festiwal-1.jpg",
+    alt: "Myszka Miki wiosenny festiwal",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40674,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-40674-brickheadz-stitch",
+    image: "https://zklockow.pl/img/960/lego-brickheadz-40674-stitch-1.jpg",
+    alt: "Stitch",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40631,
+    year: 2023,
+    price: 0,
+    url: "https://zklockow.pl/lego-40631-brickheadz-gandalf-szary-i-balrog",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40631-gandalf-szary-i-balrog-1.jpg",
+    alt: "Gandalf Szary i Balrog",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40622,
+    year: 2023,
+    price: 0,
+    url: "https://zklockow.pl/lego-40622-brickheadz-disney-100-urodziny",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40622-disney-100-urodziny-1.jpg",
+    alt: "Disney",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40620,
+    year: 2023,
+    price: 0,
+    url: "https://zklockow.pl/lego-40620-brickheadz-cruella-i-diabolina",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40620-cruella-i-diabolina-1.jpg",
+    alt: "Cruella i Diabolina",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40615,
+    year: 2023,
+    price: 0,
+    url: "https://zklockow.pl/lego-40615-brickheadz-tuskenski-rabus",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40615-tuskenski-rabus-1.jpg",
+    alt: "Tuskeński rabuś",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40547,
+    year: 2022,
+    price: 0,
+    url: "https://zklockow.pl/lego-40547-brickheadz-obi-wan-kenobi-i-darth-vader",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40547-obi-wan-kenobi-i-darth-vader-1.jpg",
+    alt: "ObiWan Kenobi i Darth Vader",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40550,
+    year: 2022,
+    price: 0,
+    url: "https://zklockow.pl/lego-40550-brickheadz-chip-i-dale",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40550-chip-i-dale-1.jpg",
+    alt: "Chip i Dale",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40539,
+    year: 2022,
+    price: 0,
+    url: "https://zklockow.pl/lego-40539-brickheadz-ahsoka-tano",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40539-ahsoka-tano-1.jpg",
+    alt: "Ahsoka Tano",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40421,
+    year: 2021,
+    price: 0,
+    url: "https://zklockow.pl/lego-40421-brickheadz-belle-bottom-kevin-bob",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40421-belle-bottom-kevin-i-bob-1.jpg",
+    alt: "Belle Bottom, Kevin i Bob",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40476,
+    year: 2021,
+    price: 0,
+    url: "https://zklockow.pl/lego-40476-brickheadz-kaczka-daisy",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40476-kaczka-daisy-1.jpg",
+    alt: "Kaczka Daisy",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40477,
+    year: 2021,
+    price: 0,
+    url: "https://zklockow.pl/lego-40477-brickheadz-sknerus-mckwacz-hyzio-dyzio-zyzio",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40477-sknerus-mckwacz-hyzio-dyzio-i-zyzio-1.jpg",
+    alt: "Sknerus McKwacz z H,D,Z",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 21042,
+    year: 2018,
+    price: 439.99,
+    url: "https://zklockow.pl/lego-21042-architecture-statua-wolnosci",
+    image:
+      "https://zklockow.pl/img/960/lego-architecture-21042-statua-wolnosci-1.jpg",
+    alt: "Statua Wolności",
+    series: "Architecture",
+  },
+  {
+    setNumber: 75429,
+    year: 2025,
+    price: 319.89,
+    url: "https://zklockow.pl/lego-75429-star-wars-helm-operatora-at-at",
+    image:
+      "https://zklockow.pl/img/960/lego-star-wars-75429-helm-operatora-at-at-1.jpg",
+    alt: "Hełm operatora AT-AT",
+    series: "Star Wars",
+  },
+  {
+    setNumber: 21061,
+    year: 2024,
+    price: 698.99,
+    url: "https://zklockow.pl/lego-21061-architecture-notre-dame-w-paryzu",
+    image:
+      "https://zklockow.pl/img/960/lego-architecture-21061-notre-dame-w-paryzu-1.jpg",
+    alt: "NotreDame w Paryżu",
+    series: "Architecture",
+  },
+  {
+    setNumber: 77071,
+    year: 2024,
+    price: 174.99,
+    url: "https://zklockow.pl/lego-77071-fortnite-lama-zaopatrzeniowa",
+    image:
+      "https://zklockow.pl/img/960/lego-fortnite-77071-lama-zaopatrzeniowa-1.jpg",
+    alt: "Lama Zaopatrzeniowa",
+    series: "Fortnite",
+  },
+
+  {
+    setNumber: 40443,
+    year: 2021,
+    price: 0,
+    url: "https://zklockow.pl/lego-40443-brickheadz-papuzka",
+    image: "https://zklockow.pl/img/960/lego-brickheadz-40443-papuzka-1.jpg",
+    alt: "papga",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 75317,
+    year: 2020,
+    price: 0,
+    url: "https://zklockow.pl/lego-75317-brickheadz-mandalorianin-i-dziecko",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-75317-mandalorianin-i-dziecko-3.jpg",
+    alt: "GiM",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40377,
+    year: 2020,
+    price: 0,
+    url: "https://zklockow.pl/lego-40377-brickheadz-kaczor-donald",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40377-kaczor-donald-0.jpg",
+    alt: "Donald",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 40378,
+    year: 2020,
+    price: 0,
+    url: "https://zklockow.pl/lego-40378-brickheadz-goofy-i-pluto",
+    image:
+      "https://zklockow.pl/img/960/lego-brickheadz-40378-goofy-i-pluto-0.jpg",
+    alt: "PiG",
+    series: "BrickHeadz",
+  },
+  {
+    setNumber: 10283,
+    year: 2021,
+    price: 815,
+    url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
+    image:
+      "https://zklockow.pl/img/960/lego-10283-wahadlowiec-discovery-nasa-3.jpg",
+    alt: "Nasa",
+    series: "Ideas",
+  },
+  {
+    setNumber: 6081,
+    year: 1990,
+    price: 0,
+    url: "https://brickset.com/sets/6081-1/King-s-Mountain-Fortress",
+    image: "https://images.brickset.com/sets/images/6081-1.jpg",
+    alt: "Mountais Castle",
+    series: "Castle",
   },
 ];

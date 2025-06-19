@@ -1,7 +1,7 @@
 import { LegoWishlist } from "../../const/lego";
 import { ownedSetsList } from "../../const/ownedSets";
 
-export const useListOrganizer = () => {
+export const useLegoList = () => {
   const ownedSets = LegoWishlist.filter((set) =>
     ownedSetsList.includes(set.setNumber)
   );
@@ -10,15 +10,17 @@ export const useListOrganizer = () => {
     (item1) => !ownedSets.some((item2) => item1.price === item2.price)
   );
 
+  const seriesNames = [...new Set(LegoWishlist.map((set) => set.series))];
+
   const sortedLegoWishlist = [...wantedSets].sort((a, b) => a.price - b.price);
 
   const sortedOwnedList = [...ownedSets].sort((a, b) => a.year - b.year);
 
-  const seriesNames = [...new Set(LegoWishlist.map((set) => set.series))];
+  const sortedSeries = [...seriesNames].sort((a, b) => a.localeCompare(b));
 
   return {
     sortedLegoWishlist,
     sortedOwnedList,
-    seriesNames,
+    sortedSeries,
   };
 };

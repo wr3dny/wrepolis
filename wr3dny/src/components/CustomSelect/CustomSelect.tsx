@@ -1,13 +1,8 @@
 import { ChangeEvent } from "react";
 import styles from "./CustomSelect.module.css";
 
-export interface Option {
-  label: string;
-  value: string | number;
-}
-
 interface Props {
-  options: Option[];
+  options: string[];
   value: string | number;
   onChange: (value: string | number) => void;
   name?: string;
@@ -39,10 +34,15 @@ export const CustomSelect = ({
         disabled={disabled}
         className={styles.select}
       >
-        {placeholder && <option value="">{placeholder}</option>}
+        {placeholder && (
+          <option value="" disabled hidden>
+            {placeholder}
+          </option>
+        )}
+
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value}>
-            <div className={styles.value}> {opt.label}</div>
+          <option key={opt} value={opt}>
+            {opt}
           </option>
         ))}
       </select>
