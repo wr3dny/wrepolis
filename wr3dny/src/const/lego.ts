@@ -879,4 +879,13 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Kużnia",
     series: "Ideas",
   },
+  {
+    setNumber: 43249,
+    year: 2024,
+    price: 0,
+    url: "https://zklockow.pl/lego-43249-disney-stitch",
+    image: "https://zklockow.pl/img/960/lego-disney-43249-stitch-1.jpg",
+    alt: "Stitch",
+    series: "Disney",
+  },
 ];
