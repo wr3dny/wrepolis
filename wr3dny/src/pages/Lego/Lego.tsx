@@ -1,12 +1,17 @@
-import { useMemo, useState } from "react";
+import { Key, useMemo, useState } from "react";
 import styles from "./Lego.module.css";
 import { useLegoList } from "./useListOrganizer";
 import { CustomSelect } from "../../components/CustomSelect/CustomSelect";
 
-const ownershipOptions = ["wanted", "owned"] as const;
+const ownershipOptions = ["wanted", "perhaps", "owned"] as const;
 
 export const Lego = () => {
-  const { sortedLegoWishlist, sortedOwnedList, sortedSeries } = useLegoList();
+  const {
+    sortedAllLegoWishlist,
+    sortedPrimaryWantedList,
+    sortedOwnedList,
+    sortedSeries,
+  } = useLegoList();
 
   const [viewType, setViewType] =
     useState<(typeof ownershipOptions)[number]>("wanted");
@@ -23,9 +28,11 @@ export const Lego = () => {
       return selectedSeries === "all"
         ? sortedOwnedList
         : sortedOwnedList.filter((set) => set.series === selectedSeries);
+    } else if (viewType === "perhaps") {
+      return sortedAllLegoWishlist;
     }
-    return sortedLegoWishlist;
-  }, [viewType, selectedSeries, sortedOwnedList, sortedLegoWishlist]);
+    return sortedPrimaryWantedList;
+  }, [viewType, selectedSeries, sortedOwnedList, sortedAllLegoWishlist]);
 
   return (
     <div className={styles.container}>
@@ -49,18 +56,25 @@ export const Lego = () => {
       </div>
 
       <div className={styles.display}>
-        {listToDisplay.map((set) => (
-          <div key={set.setNumber}>
-            <a
-              href={set.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              <img src={set.image} alt={set.alt} className={styles.img} />
-            </a>
-          </div>
-        ))}
+        {listToDisplay.map(
+          (set: {
+            setNumber: Key | null | undefined;
+            url: string | undefined;
+            image: string | undefined;
+            alt: string | undefined;
+          }) => (
+            <div key={set.setNumber}>
+              <a
+                href={set.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                <img src={set.image} alt={set.alt} className={styles.img} />
+              </a>
+            </div>
+          )
+        )}
       </div>
     </div>
   );
