@@ -888,4 +888,33 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Stitch",
     series: "Disney",
   },
+  {
+    setNumber: 21063,
+    year: 2025,
+    price: 949,
+    url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
+    image:
+      "https://zklockow.pl/img/960/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
+    alt: "Stitch",
+    series: "Architecture",
+  },
+  {
+    setNumber: 75415,
+    year: 2025,
+    price: 239,
+    url: "https://zklockow.pl/lego-75415-star-wars-helm-kylo-rena",
+    image:
+      "https://zklockow.pl/img/960/lego-star-wars-75415-helm-kylo-rena-1.jpg",
+    alt: "KyloRen",
+    series: "StarWars",
+  },
+  {
+    setNumber: 10372,
+    year: 2025,
+    price: 299,
+    url: "https://zklockow.pl/lego-10372-botanicals-hibiskus",
+    image: "https://zklockow.pl/img/960/lego-botanicals-10372-hibiskus-1.jpg",
+    alt: "Hibiscus",
+    series: "Botanicals",
+  },
 ];
