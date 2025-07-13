@@ -8,9 +8,9 @@ export interface WorkItem {
 }
 
 export const cvText = () => {
-  const name = "Paweł Pawtel";
-  const aboutMe =
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, quo accusamus. Magni inventore iusto provident debitis tempora, repudiandae modi laboriosam quam ex soluta quos natus, quidem enim vel id maiores aspernatur aperiam aliquid! Ullam omnis molestiae hic non ipsum accusantium?";
+  // const {t} =
+  // const name = "Paweł Pawtel";
+  // const aboutMe = {t("about")}
 
   const contact = {
     tel: 7777,
@@ -113,7 +113,7 @@ export const cvText = () => {
 
   return {
     name,
-    aboutMe,
+    // aboutMe,
     skills,
     contact,
     sortedWorkPlaces,
