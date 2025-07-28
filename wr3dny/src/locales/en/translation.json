@@ -1,0 +1,87 @@
+{
+  "work": [
+    {
+      "id": 1,
+      "company": "Pracownia Projektowa Antra",
+      "dateFrom": "09.2009",
+      "dateTo": "06.2013",
+      "position": "intern",
+      "description": "antra_intern_description"
+    },
+    {
+      "id": 2,
+      "company": "Pracownia Projektowa Antra",
+      "dateFrom": "07.2013",
+      "dateTo": "02.2023",
+      "position": "designer",
+      "description": "antra_designer_description"
+    },
+    {
+      "id": 3,
+      "company": "Silky Coders Sp. z o.o.",
+      "dateFrom": "06.2023",
+      "dateTo": "12.2023",
+      "position": "intern",
+      "description": "silky_intern_description"
+    },
+    {
+      "id": 4,
+      "company": "Silky Coders Sp. z o.o.",
+      "dateFrom": "01.2024",
+      "dateTo": "",
+      "position": "Junior Frontend Developer",
+      "description": "silky_junior_description"
+    }
+  ],
+  "certification": [
+    {
+      "id": 1,
+      "company": "Code:Me",
+      "name": "basic_python",
+      "dateFrom": "05.2022",
+      "dateTo": "07.2022",
+      "hours": "72h"
+    },
+    {
+      "id": 2,
+      "company": "Code:Me",
+      "name": "data_science",
+      "dateFrom": "07.2022",
+      "dateTo": "07.2022",
+      "hours": "12h"
+    },
+    {
+      "id": 3,
+      "company": "Code:Me",
+      "name": "frontend_dev",
+      "dateFrom": "10.2022",
+      "dateTo": "02.2023",
+      "hours": "100h"
+    },
+    {
+      "id": 4,
+      "company": "Code:Me",
+      "name": "sql_basic",
+      "dateFrom": "03.2023",
+      "dateTo": "04.2023",
+      "hours": "27h"
+    },
+    {
+      "id": 4,
+      "company": "AXL",
+      "name": "js_xl",
+      "dateFrom": "03.2023",
+      "dateTo": "05.2023",
+      "hours": "160h"
+    }
+  ],
+  "education": [
+    {
+      "uni": "pg",
+      "clas": "wilis",
+      "specialisation": "concrete_spec",
+      "dateFrom": "10.2004",
+      "dateTo": "06.2009"
+    }
+  ]
+}
