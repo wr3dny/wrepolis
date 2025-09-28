@@ -98,16 +98,6 @@ export const LegoWishlist: LegoSet[] = [
     series: "Icons",
   },
   {
-    setNumber: 10300,
-    year: 2022,
-    price: 734,
-    url: "https://zklockow.pl/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci",
-    image:
-      "https://zklockow.pl/img/960/lego-10300-wehikul-czasu-z-powrotu-do-przyszlosci-1.jpg",
-    alt: "Back to the Future",
-    series: "Icons",
-  },
-  {
     setNumber: 21327,
     year: 2022,
     price: 1287.65,
@@ -741,16 +731,6 @@ export const LegoWishlist: LegoSet[] = [
     series: "BrickHeadz",
   },
   {
-    setNumber: 10283,
-    year: 2021,
-    price: 815,
-    url: "https://zklockow.pl/lego-10283-wahadlowiec-discovery-nasa",
-    image:
-      "https://zklockow.pl/img/960/lego-10283-wahadlowiec-discovery-nasa-3.jpg",
-    alt: "Nasa",
-    series: "Ideas",
-  },
-  {
     setNumber: 6081,
     year: 1990,
     price: 0,
@@ -888,16 +868,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Stitch",
     series: "Disney",
   },
-  {
-    setNumber: 21063,
-    year: 2025,
-    price: 949,
-    url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
-    image:
-      "https://zklockow.pl/img/960/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
-    alt: "Stitch",
-    series: "Architecture",
-  },
+  // {
+  //   setNumber: 21063,
+  //   year: 2025,
+  //   price: 949,
+  //   url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
+  //   alt: "Stitch",
+  //   series: "Architecture",
+  // },
   {
     setNumber: 75415,
     year: 2025,

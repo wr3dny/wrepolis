@@ -14,6 +14,14 @@ export const RouterConfig = () => {
         element={<ResponsiveView content={<Home />} navbar={<Navbar />} />}
       />
       <Route
+        path={PATHS.COINS}
+        element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
+      />
+      <Route
+        path={PATHS.GALLERY}
+        element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
+      />
+      <Route
         path={PATHS.LEGO}
         element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
       />
