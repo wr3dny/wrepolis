@@ -27,16 +27,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "LRV",
     series: "Technic",
   },
-  {
-    setNumber: 21348,
-    year: 2024,
-    price: 1287,
-    url: "https://zklockow.pl/lego-21348-ideas-dungeons-dragons-opowiesc-czerwonego-smoka",
-    image:
-      "https://zklockow.pl/img/960/lego-ideas-21348-dungeons-dragons-opowiesc-czerwonego-smoka-1.jpg",
-    alt: "D&D",
-    series: "Ideas",
-  },
+  // {
+  //   setNumber: 21348,
+  //   year: 2024,
+  //   price: 1287,
+  //   url: "https://zklockow.pl/lego-21348-ideas-dungeons-dragons-opowiesc-czerwonego-smoka",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-ideas-21348-dungeons-dragons-opowiesc-czerwonego-smoka-1.jpg",
+  //   alt: "D&D",
+  //   series: "Ideas",
+  // },
   {
     setNumber: 10350,
     year: 2025,
@@ -47,16 +47,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Pub",
     series: "Icons",
   },
-  {
-    setNumber: 10316,
-    year: 2023,
-    price: 1799.0,
-    url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
-    alt: "Władca Pierścieni: Rivendell™",
-    series: "Icons",
-  },
+  // {
+  //   setNumber: 10316,
+  //   year: 2023,
+  //   price: 1799.0,
+  //   url: "https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-icons-10316-wladca-pierscieni-rivendell-1.jpg",
+  //   alt: "Władca Pierścieni: Rivendell™",
+  //   series: "Icons",
+  // },
   {
     setNumber: 21347,
     year: 2024,
@@ -67,16 +67,16 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Czerwona londyńska budka telefoniczna",
     series: "Ideas",
   },
-  {
-    setNumber: 10333,
-    year: 2024,
-    price: 1737.1,
-    url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
-    alt: "Władca Pierścieni: Baraddûr™",
-    series: "Icons",
-  },
+  // {
+  //   setNumber: 10333,
+  //   year: 2024,
+  //   price: 1737.1,
+  //   url: "https://zklockow.pl/lego-10333-icons-wladca-pierscieni-barad-dur",
+  //   image:
+  //     "https://zklockow.pl/img/960/lego-icons-10333-wladca-pierscieni-barad-d%C3%BBr-1.jpg",
+  //   alt: "Władca Pierścieni: Baraddûr™",
+  //   series: "Icons",
+  // },
   {
     setNumber: 43227,
     year: 2023,
@@ -896,5 +896,15 @@ export const LegoWishlist: LegoSet[] = [
     image: "https://zklockow.pl/img/960/lego-botanicals-10372-hibiskus-1.jpg",
     alt: "Hibiscus",
     series: "Botanicals",
+  },
+  {
+    setNumber: 10372,
+    year: 2025,
+    price: 179,
+    url: "https://zklockow.pl/lego-75408-star-wars-helm-jango-fetta",
+    image:
+      "https://zklockow.pl/img/960/lego-star-wars-75408-helm-jango-fetta-1.jpg",
+    alt: "JangoFett",
+    series: "StarWars",
   },
 ];
