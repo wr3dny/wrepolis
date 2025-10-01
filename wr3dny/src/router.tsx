@@ -2,29 +2,21 @@ import { Route, Routes } from "react-router-dom";
 import { PATHS } from "./const/paths";
 
 import { Lego } from "./pages/Lego/Lego";
-import { ResponsiveView } from "./view/ResponsiveView/ResponsiveView";
 import { Home } from "./pages/Home/Home";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Gallery } from "./pages/Gallery/Gallery";
+import { Coins } from "./pages/Coins/Coins";
 
 export const RouterConfig = () => {
   return (
-    <Routes>
-      <Route
-        path={PATHS.HOME}
-        element={<ResponsiveView content={<Home />} navbar={<Navbar />} />}
-      />
-      <Route
-        path={PATHS.COINS}
-        element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
-      />
-      <Route
-        path={PATHS.GALLERY}
-        element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
-      />
-      <Route
-        path={PATHS.LEGO}
-        element={<ResponsiveView content={<Lego />} navbar={<Navbar />} />}
-      />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path={PATHS.HOME} element={<Home />} />
+        <Route path={PATHS.COINS} element={<Coins />} />
+        <Route path={PATHS.GALLERY} element={<Gallery />} />
+        <Route path={PATHS.LEGO} element={<Lego />} />
+      </Routes>
+    </>
   );
 };

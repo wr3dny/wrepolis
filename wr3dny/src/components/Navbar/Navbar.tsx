@@ -3,13 +3,9 @@ import { PATHS } from "../../const/paths";
 import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
-  // const toggleTheme = () => {
-  //   setTheme((prev) => (prev === "light" ? "dark" : "light"));
-  // };
-
   return (
     <nav>
-      <ul>
+      <ul className={styles.container}>
         {Object.entries(PATHS).map(([key, value]) => (
           <li key={key}>
             <NavLink to={value} end className={styles.to}>

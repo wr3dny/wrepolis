@@ -32,7 +32,13 @@ export const Lego = () => {
       return sortedAllLegoWishlist;
     }
     return sortedPrimaryWantedList;
-  }, [viewType, selectedSeries, sortedOwnedList, sortedAllLegoWishlist]);
+  }, [
+    viewType,
+    selectedSeries,
+    sortedOwnedList,
+    sortedAllLegoWishlist,
+    sortedPrimaryWantedList,
+  ]);
 
   return (
     <div className={styles.container}>
